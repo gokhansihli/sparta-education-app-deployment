@@ -86,7 +86,7 @@ npm start app.js
 ```
 
 8. Create a new file in your EC2 instance using:
-   1. `Sudo nano app-deploy.sh`
+   1. `sudo nano app-deploy.sh`
 9. Paste the script contents into this file
 10. Save and close the file
     1. `Ctrl + x` to exit
