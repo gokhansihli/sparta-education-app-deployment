@@ -1,18 +1,23 @@
-# Intro to Markdown
+## Documentation with Markdown
 
-### Bullet points
+**Markdown** is a lightweight markup language for writing formatted text in `.md` files. It renders beautifully on GitHub (and many other platforms) and is the standard for technical documentation.
 
-     Bullet 2.1
+### Essential Markdown Syntax
 
-1. Number 1
-2. Number 2
-   1. Number 2.1
+# Heading 1
 
-### Codifying text
+## Heading 2
 
-`This is codified`
+### Heading 3
 
-Make a codeblock:
+**bold text**
+_italic text_
+`inline code`
+
+```bash
+# code block (specify language for syntax highlighting)
+sudo apt update -y
+```
 
 ```python
 name = "Luke"
@@ -20,16 +25,6 @@ print(name)
 
 ```
 
-Bash example:
-
-```bash
-
-#!/bin/bash
-
-sudo apt update -y
-
-```
-
 ### Images
 
-![Logo](./images/logox.png)
+![Logo](./images/devops.png)
