@@ -180,6 +180,8 @@ pm2 start app.js
 
 Visit `http://<app-public-ip>/posts` in your browser.
 
+![posts](./images/posts.png)
+
 You should see a blog-style page with randomised headings and Latin body text — this data is being **pulled dynamically from your MongoDB database on a separate EC2 instance**.
 
 The homepage (`http://<app-public-ip>`) always works (no database needed). The `/posts` page only works if the database connection is configured correctly.
