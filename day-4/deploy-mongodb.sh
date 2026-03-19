@@ -24,15 +24,15 @@ sudo apt install -y mongodb-org=7.0.6 mongodb-org-database=7.0.6 mongodb-org-ser
 
 # `sudo systemctl status mongod` (check the status)
 
-`cd /`
+# cd /
 
-`cd /etc`
+# cd /etc
 
 sudo nano mongod.conf
 
 # Change bindIP to 0.0.0.0 in nano text
 
-cd
+# cd
 
 sudo systemctl start mongod
 
@@ -51,7 +51,7 @@ sudo systemctl status mongod
 # Below is for first EC2 instance
 
 # in other terminal we did `pm2 kill` and below comments
-# export DB_HOST=mongodb://108.129.197.215:27017/posts (se-gokhan-db-2-tier)
+# export DB_HOST=mongodb://108.129...215:27017/posts (se-yourname-db-2-tier)
 # printenv DB_HOST (check if its working)
 # cd se-sparta-test-app
 # cd app
@@ -59,7 +59,7 @@ sudo systemctl status mongod
 # node seeds/seed.js
 # pm2 start app.js
 
-# http://34.249.240.191/posts (se-gokhan-app-2-tier)
+# http://34.249...191/posts (se-yourname-app-2-tier)
 
 # We first created EC2 instance (22,80,3000) and deployed app with improved-app-deploy.sh script
 # Then we created second EC2 instance db (22, 27017) and implemented above script(above pm2 kill comment) then on the first terminal we connected db and app.
